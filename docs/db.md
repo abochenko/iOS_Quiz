@@ -10,10 +10,16 @@
 
 
 
-### UserInfo
+### UserList
 | PK | フィールド名 | 型 | AU |  NN | 備考 |
 |:--:|:------------|:------:|:---:|:---:|:--------------------|
+| x | Id | int | x | x | 連番 |
+|  | UniqueId |  | x | UUIDかUIIDを使う予定 *UDIDはを利用するとリジェクトされるらしい |
+|  | GroupId | int |  |  | GroupId *拡張用 |
+|  | 
 
+* 参考
+  * http://d.hatena.ne.jp/tanamon/20120924/1348491831
 
 ### 
 
